@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Anshul Patel</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+	<body>
+		<!-- Header -->
+
+<div class="topnav" id="myTopnav">
+  <p id="name">Anshul Patel</p>
+  <a href="#four">Contact</a>
+  <a href="#three" >Projects</a>
+  <a href="#two">Experiences</a>
+  <a href="index.html">Home</a>
+</div>
+
+		<section id="header">
+				<div class="inner">
+					<img src="me.jpg" alt="Picture of me" width="300px" height="300px">
+					<h1>Hello! My name is <strong>Anshul Patel</strong>, and I am<br />
+					a Computer Engineer attending <a href="http://www.ryerson.ca/" target="_blank">Ryerson University.</a></h1>
+					<ul class="actions">
+						<li><a href="#one" class="button scrolly">Profile</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<header class="major">
+								<h2>General Profile</h2>
+							</header>
+							<ul>
+								<li>Able to use all aspects of Microsoft office, MatLab, Multisim and Photoshop</li>
+								<li>Able to program in Java, JavaScript, Arduino, C, SQL, and HTML5/CSS3</li>
+								<li>Knowledge of various JavaScript libraries </li>
+								<li>Able to develop android applications/web applications</li>
+						</div>
+						<img src="ce1.jpg" alt="Picture of Comp Eng." width="530px" height="200px" >
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2">
+				<div class="container">
+					<div class="row 150%">
+						<div class="6u 12u$(medium)">
+							<ul class="major-icons">
+								<li><span class="icon style1 major fa-code"></span></li>
+								<li><span class="icon style2 major fa-bolt"></span></li>
+								<li><span class="icon style3 major fa-camera-retro"></span></li>
+								<li><span class="icon style4 major fa-cog"></span></li>
+								<li><span class="icon style5 major fa-desktop"></span></li>
+								<li><span class="icon style6 major fa-calendar"></span></li>
+							</ul>
+						</div>
+						<div class="6u$ 12u$(medium)">
+							<header class="major">
+								<h2>Relevant Experience<br /></h2>
+							</header>
+							<h4>OPR Lab- Research Assistant</h4>
+							<p>-Researching IOT network protocols </p>
+							<p>-Simulating and enhancing routing algorithms for IOT data transfer and building towards one of our own using the MCTS A.I</p>
+							<p>-Learned about the OCI model, TCP/IP model, 6LowPAN, ZigBee, LEACH, and various routing algorithms  </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="main style1 special">
+				<div class="container">
+					<header class="major">
+						<h2>My Projects</h2>
+					</header>
+					<p>Source code for these projects can be found on my Github (linked below).</p>
+					<div class="row 150%">
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="jeopardy.jpg" alt="" /></span>
+							<h3>Jeopardy!</h3>
+							<p>A game I created for a grade 11 project where users can play a mini version of the famous game show Jeopardy.</p>
+							<ul class="actions">
+								<li><a href="www.github.com/AnshulPatel123" class="button" target="_blank">More Projects</a></li>
+							</ul>
+						</div>
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="DSAA.jpg" alt="" /></span>
+							<h3>Data Structure and Algorithms</h3>
+							<p>Completed a series of projects that used algorithms such as insertion sort, merge sort, e.t.c and used data structures like hash tables, search trees e.t.c</p>
+						</div>
+						<div class="4u 12u$(medium)">
+							<span class="image fit"><img src="airhockey3.jpg" alt="" /></span>
+							<h3>Virtual Air Hockey</h3>
+							<p>Created a game as part of a grade 12 project that consisted of a player controlled paddle against a computer controlled paddle.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Four -->
+			<section id="four" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>My Contact Information</h2>
+					</header>
+					<p>Please contact me for a list of my references.</p>
+					<ul class="actions uniform">
+						<li><a href="#" class="button special">647-608-6632</a></li>
+						<li><a href="#" class="button">anshul_patel@outlook.com</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/anshul.patel.31" target="_blank" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy;</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="script.js"></script>
+
+	</body>
+</html>
